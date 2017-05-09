@@ -31,4 +31,5 @@ RUN set -x \
 COPY entrypoint.sh /
 COPY pbuilderrc /etc/pbuilderrc
 COPY D05update-deps /var/cache/pbuilder/hook.d/
+COPY D50-setup-bintray-apt /var/cache/pbuilder/hook.d/
 RUN touch /var/cache/pbuilder/result/Packages

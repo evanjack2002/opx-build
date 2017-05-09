@@ -1,0 +1,5 @@
+#TODO: Sign packages and install key
+
+DEBIAN_FRONTEND=noninteractive apt-get install -y apt-transport-https ca-certificates
+echo "deb https://dl.bintray.com/open-switch/opx-apt jessie main" | tee -a /etc/apt/sources.list
+apt-get update
