@@ -9,4 +9,3 @@ HOOKDIR=/var/cache/pbuilder/hook.d
 OTHERMIRROR="deb [trusted=yes] file:///var/cache/pbuilder/result ./"
 BINDMOUNTS=/var/cache/pbuilder/result
 EXTRAPACKAGES="apt-utils"
-ALLOWUNTRUSTED=yes
